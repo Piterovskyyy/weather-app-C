@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WeatherBar</class>
+ <widget class="QWidget" name="WeatherBar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#WeatherBar{
+background-color: transparent;
+}
+QLabel#back{
+	background-color: rgba(121, 122, 122, 150);
+border-top: 1px solid white;
+}</string>
+  </property>
+  <widget class="QLabel" name="back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="MainPanel" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>333</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="Details" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>333</x>
+     <y>0</y>
+     <width>667</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MainPanel</class>
+   <extends>QWidget</extends>
+   <header>/Users/bartekochnik/Desktop/Project/Qt_Project/Official/MyBestProject/mainpanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Details</class>
+   <extends>QWidget</extends>
+   <header>/Users/bartekochnik/Desktop/Project/Qt_Project/Official/MyBestProject/details.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

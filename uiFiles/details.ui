@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Details</class>
+ <widget class="QWidget" name="Details">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>667</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel
+{
+	
+	background-color: rgba(121, 122, 122, 230);
+width: 300px;
+    border: 0px solid white;
+    border-radius: 15px;
+padding-left: 42px;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="visibility">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>220</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Widoczność: 23 km</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cloud">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>150</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Zachmurzenie: 75 %</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="feelsLike">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Temperatura odczuwalna: 26°C</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="preasure">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>220</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Ciśnienie: 1001 hPa</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="visibilityIcon">
+   <property name="geometry">
+    <rect>
+     <x>308</x>
+     <y>235</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/eye.svg);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cloudIcon">
+   <property name="geometry">
+    <rect>
+     <x>308</x>
+     <y>165</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/cloud.svg);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="preasureIcon">
+   <property name="geometry">
+    <rect>
+     <x>-32</x>
+     <y>235</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/preasure.png);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="feelLikeIcon">
+   <property name="geometry">
+    <rect>
+     <x>-28</x>
+     <y>25</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/temp.png);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="wind">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Wiatr: bezwietrznie</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rain">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>80</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Opady: 30 %</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="windIcon">
+   <property name="geometry">
+    <rect>
+     <x>308</x>
+     <y>25</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/wind.svg);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rainIcon">
+   <property name="geometry">
+    <rect>
+     <x>308</x>
+     <y>95</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/cloud-rain.svg);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="maxTemp">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>150</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Max. temperatura: 27°C</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="minTemp">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>311</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>Min. temperatura: 23°C</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="feelLikeIcon_2">
+   <property name="geometry">
+    <rect>
+     <x>-28</x>
+     <y>95</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/tempmin.png);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="feelLikeIcon_3">
+   <property name="geometry">
+    <rect>
+     <x>-28</x>
+     <y>165</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+image: url(:/images/icons/tempmax.png);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>visibility</zorder>
+  <zorder>cloud</zorder>
+  <zorder>feelsLike</zorder>
+  <zorder>preasure</zorder>
+  <zorder>preasureIcon</zorder>
+  <zorder>feelLikeIcon</zorder>
+  <zorder>wind</zorder>
+  <zorder>rain</zorder>
+  <zorder>windIcon</zorder>
+  <zorder>rainIcon</zorder>
+  <zorder>maxTemp</zorder>
+  <zorder>minTemp</zorder>
+  <zorder>cloudIcon</zorder>
+  <zorder>visibilityIcon</zorder>
+  <zorder>feelLikeIcon_2</zorder>
+  <zorder>feelLikeIcon_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -16,11 +16,21 @@ set(SOURCES
         SourceFiles/main.cpp
         SourceFiles/MainWindow.cpp
         SourceFiles/Search.cpp
+        SourceFiles/list.cpp
+        SourceFiles/mainpanel.cpp
+        SourceFiles/weatherbar.cpp
+        SourceFiles/details.cpp
+        SourceFiles/date.cpp
 )
 
 set(HEADERS
         headerFiles/MainWindow.h
         headerFiles/Search.h
+        headerFiles/list.h
+        headerFiles/mainpanel.h
+        headerFiles/weatherbar.h
+        headerFiles/details.h
+        headerFiles/date.h
 )
 
 add_executable(untitled1 ${SOURCES} ${HEADERS})

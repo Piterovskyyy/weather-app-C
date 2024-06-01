@@ -205,6 +205,11 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Program\ Files/JetBrains/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/QDateTime \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/QTime \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/QTimeZone \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/QTimer \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/q20algorithm.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -218,11 +223,15 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qbytearrayview.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qcalendar.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qcborcommon.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qcborvalue.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qcompare_impl.h \
@@ -234,11 +243,19 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qdatetime.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qeventloop.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qexceptionhandling.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qfactoryinterface.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qfloat16.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qforeach.h \
@@ -249,12 +266,16 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtCore/qglobalstatic.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qhash.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qhashfunctions.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qiodevice.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qiterable.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qiterator.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qjsonobject.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qjsonvalue.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qmalloc.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qmap.h \
@@ -264,6 +285,7 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qnamespace.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qnativeinterface.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qnumeric.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qobject.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qobject_impl.h \
@@ -271,10 +293,13 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qoverload.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qpair.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qplugin.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qpoint.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qpointer.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qset.h \
@@ -306,6 +331,8 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qtimer.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qtimezone.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -316,12 +343,15 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qutf8stringview.h \
+  C:/Qt/6.7.1/mingw_64/include/QtCore/quuid.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.7.1/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.7.1/mingw_64/include/QtGui/QMovie \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qbrush.h \
@@ -332,7 +362,10 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtGui/qfontmetrics.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qimage.h \
+  C:/Qt/6.7.1/mingw_64/include/QtGui/qimageiohandler.h \
+  C:/Qt/6.7.1/mingw_64/include/QtGui/qimagereader.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qkeysequence.h \
+  C:/Qt/6.7.1/mingw_64/include/QtGui/qmovie.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qpalette.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qpixelformat.h \
@@ -348,10 +381,12 @@ C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/GTNKI
   C:/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.7.1/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/6.7.1/mingw_64/include/QtWidgets/qwidget.h
+  C:/Qt/6.7.1/mingw_64/include/QtWidgets/qwidget.h \
+  C:/Users/jakub/CLionProjects/untitled1/headerFiles/date.h

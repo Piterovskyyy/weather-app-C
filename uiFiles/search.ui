@@ -18,13 +18,13 @@
 background-color: rgb(255, 255, 255);
 }
 QPushButton#searchButton:hover{
-	image: url(:/images/szara.png);
+	image: url(:/images/icons/szara.png);
 background-color: transparent;
 width: 40px;
 height: 30px;
 }
 QPushButton#searchButton{
-	image: url(:/images/lupka.png);
+	image: url(:/images/icons/lupka.png);
 background-color: transparent;
 width: 40px;
 height: 30px;

@@ -239,6 +239,30 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/date.h",
+			"MU",
+			"GTNKIXNSDP/moc_date.cpp",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/details.h",
+			"MU",
+			"GTNKIXNSDP/moc_details.cpp",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/list.h",
+			"MU",
+			"GTNKIXNSDP/moc_list.cpp",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/mainpanel.h",
+			"MU",
+			"GTNKIXNSDP/moc_mainpanel.cpp",
+			null
+		],
+		[
 			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/mainwindow.h",
 			"MU",
 			"GTNKIXNSDP/moc_mainwindow.cpp",
@@ -248,6 +272,12 @@
 			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/search.h",
 			"MU",
 			"GTNKIXNSDP/moc_search.cpp",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/weatherbar.h",
+			"MU",
+			"GTNKIXNSDP/moc_weatherbar.cpp",
 			null
 		]
 	],
@@ -323,7 +353,27 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/date.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/details.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/list.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/mainpanel.cpp",
 			"MU",
 			null
 		],
@@ -334,6 +384,11 @@
 		],
 		[
 			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/search.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/weatherbar.cpp",
 			"MU",
 			null
 		]

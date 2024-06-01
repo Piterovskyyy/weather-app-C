@@ -1,5 +1,5 @@
 #include "../headerFiles/search.h"
-#include "../headerFiles/searchUi.h"
+#include "../headerFiles/Ui/searchUi.h"
 
 Search::Search(QWidget *parent)
     : QWidget(parent)
