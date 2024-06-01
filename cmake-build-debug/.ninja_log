@@ -1,0 +1,14 @@
+# ninja log v6
+10	786	7389362384383507	build.ninja	c5eb2ef6b33e9590
+27	3487	7387703903743466	CMakeFiles/untitled1.dir/MainWindow.cpp.obj	6eccb45caba63031
+27	265	7388082856648817	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/timestamp	96e67a7442a7e1b6
+30	3518	7388091105768245	CMakeFiles/untitled1.dir/SourceFiles/search.cpp.obj	5a399863d49aa113
+4766	16123	7387695025799440	CMakeFiles/untitled1.dir/main.cpp.obj	234def394bebe06c
+27	265	7388082856648817	untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
+3519	5152	7388091140653042	untitled1.exe	7aaf9209d5235590
+266	3418	7388082859032443	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	275332666957aef5
+27	265	7388082856648817	untitled1_autogen/timestamp	96e67a7442a7e1b6
+27	265	7388082856648817	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
+217	3740	7388082807060722	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	512a614d5aee84e1
+991	3604	7388077187962599	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	db8b781d532ae2c9
+190	3493	7388053453667238	CMakeFiles/untitled1.dir/SourceFiles/MainWindow.cpp.obj	f97902398c439994
