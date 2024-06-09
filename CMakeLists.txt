@@ -4,7 +4,7 @@ project(untitled1 VERSION 1.0.0)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_PREFIX_PATH "C:\\Qt\\6.7.1\\mingw_64") # Zmień na rzeczywistą ścieżkę do instalacji Qt
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Network) # Dodaj Network do wymaganych komponentów
 
 # Dodanie makr do automatycznego uruchamiania MOC, RCC i UIC
 set(CMAKE_AUTOMOC ON)
@@ -35,7 +35,7 @@ set(HEADERS
 
 add_executable(untitled1 ${SOURCES} ${HEADERS})
 
-target_link_libraries(untitled1 PRIVATE Qt6::Widgets)
+target_link_libraries(untitled1 PRIVATE Qt6::Widgets Qt6::Network) # Dodaj również Qt6::Network
 
 # Dodaj ten fragment, aby uruchomić windeployqt po zbudowaniu projektu
 add_custom_command(TARGET untitled1 POST_BUILD
