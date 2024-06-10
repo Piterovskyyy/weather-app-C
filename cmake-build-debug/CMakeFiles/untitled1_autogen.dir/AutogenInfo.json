@@ -269,6 +269,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/WheaterData.h",
+			"MU",
+			"GTNKIXNSDP/moc_WheaterData.cpp",
+			null
+		],
+		[
 			"C:/Users/jakub/CLionProjects/untitled1/headerFiles/date.h",
 			"MU",
 			"GTNKIXNSDP/moc_date.cpp",
@@ -384,6 +390,11 @@
 	"SETTINGS_FILE" : "C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/WheaterData.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/jakub/CLionProjects/untitled1/SourceFiles/date.cpp",
 			"MU",

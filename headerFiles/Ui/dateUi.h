@@ -30,7 +30,7 @@ public:
     {
         if (Date->objectName().isEmpty())
             Date->setObjectName("Date");
-        Date->resize(420, 80);
+        Date->resize(120, 80);
         Date->setStyleSheet(QString::fromUtf8("QWidget#Date{\n"
 "background-color: transparent;\n"
 "}\n"
@@ -67,6 +67,7 @@ public:
         label_gif_animation->setFont(font1);
         label_gif_animation->setStyleSheet(QString::fromUtf8("image: url(../images/icons/clock.svg);"));
         label_gif_animation->setScaledContents(false);
+
 
         retranslateUi(Date);
 

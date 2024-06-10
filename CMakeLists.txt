@@ -21,6 +21,7 @@ set(SOURCES
         SourceFiles/weatherbar.cpp
         SourceFiles/details.cpp
         SourceFiles/date.cpp
+        SourceFiles/WheaterData.cpp
 )
 
 set(HEADERS
@@ -31,6 +32,9 @@ set(HEADERS
         headerFiles/weatherbar.h
         headerFiles/details.h
         headerFiles/date.h
+        SourceFiles/WheaterData.cpp
+        headerFiles/WheaterData.h
+        headerFiles/WheaterData.h
 )
 
 add_executable(untitled1 ${SOURCES} ${HEADERS})
