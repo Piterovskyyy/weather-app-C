@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "date.h"
+#include "WeaterData.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

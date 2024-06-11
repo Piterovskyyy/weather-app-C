@@ -14,6 +14,8 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QWidget>
+
+#include "../WeaterData.h"
 #include "../../headerFiles/date.h"
 #include "../../headerFiles/list.h"
 #include "../../headerFiles/search.h"
@@ -24,7 +26,7 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    // WheaterData wheater_data;
+    // WeatherData weather_data;
     QWidget *centralwidget;
     Search *widget;
     QLabel *lcdNumber;
@@ -69,8 +71,6 @@ public:
         widget_4->setGeometry(QRect(10, 70, 290, 270));
         widget_4->setStyleSheet(QString::fromUtf8("background-color: rgba(74, 75, 75, 218);"));
         MainWindow->setCentralWidget(centralwidget);
-
-
 
         retranslateUi(MainWindow);
 

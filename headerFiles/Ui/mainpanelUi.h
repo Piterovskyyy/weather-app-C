@@ -14,6 +14,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
+#include "../WeaterData.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -24,6 +25,7 @@ public:
     QLabel *description;
     QLabel *label;
     QPushButton *star;
+    WeatherData& weather_data = WeatherData::getInstance();
 
     void setupUi(QWidget *MainPanel)
     {
@@ -33,9 +35,9 @@ public:
         MainPanel->setStyleSheet(QString::fromUtf8("QWidget#MainPanel{\n"
 "background-color: transparent;\n"
 "}\n"
-"QLabel#icon{\n"
-"	image: url(../images/icons/w3.png);\n"
-"}\n"
+// "QLabel#icon{\n"
+// "	image: url(../images/icons/w3.png);\n"
+// "}\n"
 "QLabel#description{\n"
 "text-align: center;\n"
 "}\n"
@@ -81,12 +83,28 @@ public:
 
     void retranslateUi(QWidget *MainPanel)
     {
+        QObject::connect(&weather_data, &WeatherData::dataReady, MainPanel, [this]() {
+            updateUI();
+        });
+
         MainPanel->setWindowTitle(QCoreApplication::translate("MainPanel", "Form", nullptr));
         icon->setText(QString());
-        description->setText(QCoreApplication::translate("MainPanel", "cloudy", nullptr));
-        label->setText(QCoreApplication::translate("MainPanel", "28\302\260C", nullptr));
+        // description->setText(QCoreApplication::translate("MainPanel", "", nullptr));
+        // label->setText(QCoreApplication::translate("MainPanel", "28\302\260C", nullptr));
         star->setText(QString());
     } // retranslateUi
+
+    void updateUI()
+    {
+        description->setText(QCoreApplication::translate("MainPanel", weather_data.getDescription().c_str(), nullptr));
+        icon->setStyleSheet(QString::fromUtf8(
+        "QLabel#icon{\n"
+        "	image: url(../images/icons/w2.png);\n"
+        "}\n"
+        ));
+        std::string tempString = std::to_string(weather_data.getTemp()) + "\302\260C"; // \302\260 represents the degree symbol (°)
+        label->setText(QCoreApplication::translate("MainPanel", tempString.c_str(), nullptr));
+    }
 
 };
 
