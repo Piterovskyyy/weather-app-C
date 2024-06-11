@@ -1,5 +1,5 @@
-C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir
-C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1_autogen_timestamp_deps.dir
-C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1_autogen.dir
+D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/CMakeFiles/untitled1.dir
+D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/CMakeFiles/untitled1_autogen_timestamp_deps.dir
+D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/CMakeFiles/untitled1_autogen.dir

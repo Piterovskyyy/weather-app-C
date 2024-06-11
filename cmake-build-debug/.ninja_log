@@ -1,55 +1,35 @@
-# ninja log v6
-11	869	7397387071674558	build.ninja	c5eb2ef6b33e9590
-27	3487	7387703903743466	CMakeFiles/untitled1.dir/MainWindow.cpp.obj	6eccb45caba63031
-33	452	7397384853440228	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/timestamp	96e67a7442a7e1b6
-5677	9179	7396367483852910	CMakeFiles/untitled1.dir/SourceFiles/search.cpp.obj	bda2e6578ef42248
-4766	16123	7387695025799440	CMakeFiles/untitled1.dir/main.cpp.obj	234def394bebe06c
-33	452	7397384853440228	untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
-4070	5771	7397384893803416	untitled1.exe	ee73d4139c4ebcc8
-452	4069	7397384857628614	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	580be9325da15884
-33	452	7397384853440228	untitled1_autogen/timestamp	96e67a7442a7e1b6
-33	452	7397384853440228	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
-2192	5677	7396367448995611	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-2184	5725	7396367448915830	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	8b928022aed22e97
-190	3493	7388053453667238	CMakeFiles/untitled1.dir/SourceFiles/MainWindow.cpp.obj	f97902398c439994
-5725	9159	7396367484331638	CMakeFiles/untitled1.dir/SourceFiles/list.cpp.obj	e6a45d0e220f1179
-6346	9597	7396367490540334	CMakeFiles/untitled1.dir/SourceFiles/mainpanel.cpp.obj	e34dac9e1a2372b7
-9180	12417	7396367518874122	CMakeFiles/untitled1.dir/SourceFiles/details.cpp.obj	f81a0c4a276eceee
-9160	12209	7396367518669580	CMakeFiles/untitled1.dir/SourceFiles/weatherbar.cpp.obj	8b92dd9f20f14839
-9597	12986	7396367523043758	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	e8d69bdaacb33798
-176	575	7397387946181056	untitled1_autogen/timestamp	96e67a7442a7e1b6
-176	575	7397387946181056	untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
-176	575	7397387946181056	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/timestamp	96e67a7442a7e1b6
-176	575	7397387946181056	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
-586	682	7397387950276073	CMakeFiles/untitled1.dir/SourceFiles/WheaterData.cpp.obj	475c4aed89078b03
-576	4423	7397387950176337	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	580be9325da15884
-49	5000	7397388085309994	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-5001	8029	7397388134834050	untitled1.exe	1ee34e6f7590964
-43	535	7397390741123450	untitled1_autogen/timestamp	96e67a7442a7e1b6
-43	535	7397390741123450	untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
-43	535	7397390741123450	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/timestamp	96e67a7442a7e1b6
-43	535	7397390741123450	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
-536	3945	7397390746050723	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-3946	5519	7397390780149145	untitled1.exe	1ee34e6f7590964
-49	3814	7397390907253500	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-3814	5427	7397390944896804	untitled1.exe	1ee34e6f7590964
-46	3919	7397391198422042	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-3920	5495	7397391237157118	untitled1.exe	1ee34e6f7590964
-35	3474	7397392193632017	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	e8d69bdaacb33798
-3475	5079	7397392228026632	untitled1.exe	1ee34e6f7590964
-38	4044	7397392924886478	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-46	4161	7397392924956295	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	e8d69bdaacb33798
-4161	5807	7397392966110570	untitled1.exe	1ee34e6f7590964
-39	3535	7397393209837295	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-3536	5266	7397393244809213	untitled1.exe	1ee34e6f7590964
-62	3539	7397393896279074	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-3544	5212	7397393931087413	untitled1.exe	1ee34e6f7590964
-42	4924	7397394179805334	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-50	4946	7397394179884767	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	e8d69bdaacb33798
-4946	6797	7397394228851601	untitled1.exe	1ee34e6f7590964
-44	3874	7397394337360358	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	e8d69bdaacb33798
-3875	5679	7397394375669357	untitled1.exe	1ee34e6f7590964
-42	3448	7397394471834841	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-3449	5240	7397394505912974	untitled1.exe	1ee34e6f7590964
-42	3981	7397394755419271	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
-3982	5834	7397394794820895	untitled1.exe	1ee34e6f7590964
+# ninja log v5
+27	612	7397914731328323	build.ninja	91c2595a92d55af3
+1018	4480	7397398912786777	CMakeFiles/untitled1.dir/SourceFiles/search.cpp.obj	e91628d0f15c55ec
+61	296	7397452986237338	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+4284	6246	7397453031178191	untitled1.exe	f7b456250d3643db
+61	296	7397452986237338	untitled1_autogen/timestamp	ee13ec449bd23deb
+301	4284	7397453026099131	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	5544139872d6e811
+1008	4589	7397398913872042	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	f0893a660101efaa
+1014	4618	7397398914171965	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	29ad3381f493042
+1021	4412	7397398912081661	CMakeFiles/untitled1.dir/SourceFiles/list.cpp.obj	d55501ef978dc26
+1025	4385	7397398911671630	CMakeFiles/untitled1.dir/SourceFiles/mainpanel.cpp.obj	71014b680bcd1053
+169	217	7397413631100022	CMakeFiles/untitled1.dir/SourceFiles/WeaterData.cpp.obj	2ddd16110ceba182
+1035	4459	7397398912561728	CMakeFiles/untitled1.dir/SourceFiles/details.cpp.obj	9e8dcb1ce2919ff1
+1029	4348	7397398911406334	CMakeFiles/untitled1.dir/SourceFiles/weatherbar.cpp.obj	64de45a616cec84c
+1039	4767	7397398915669691	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	3661bf5696fcc1
+1055	1189	7397398879840877	CMakeFiles/untitled1.dir/SourceFiles/WheaterData.cpp.obj	ab8b094452c7e201
+61	296	7397452986237338	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
+61	296	7397452986237338	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+37	2436	7398389786566393	untitled1_autogen/timestamp	ee13ec449bd23deb
+37	2436	7398389786566393	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+37	2436	7398389786566393	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
+37	2436	7398389786566393	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+2436	14102	7398389904958965	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	f0893a660101efaa
+112	613	7398389941429012	untitled1_autogen/timestamp	ee13ec449bd23deb
+112	613	7398389941429012	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+112	613	7398389941429012	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
+112	613	7398389941429012	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+624	8129	7398390016652666	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	5544139872d6e811
+8129	15862	7398390027686883	untitled1.exe	f7b456250d3643db
+112	494	7398390753491170	untitled1_autogen/timestamp	ee13ec449bd23deb
+112	494	7398390753491170	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+112	494	7398390753491170	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
+112	494	7398390753491170	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
+502	5796	7398390806540435	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	5544139872d6e811
+5797	8307	7398390813037500	untitled1.exe	f7b456250d3643db

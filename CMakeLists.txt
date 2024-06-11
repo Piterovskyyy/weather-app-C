@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(untitled1 VERSION 1.0.0)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_PREFIX_PATH "C:\\Qt\\6.7.1\\mingw_64") # Zmień na rzeczywistą ścieżkę do instalacji Qt
+set(CMAKE_PREFIX_PATH "D:\\Programy\\Qt\\6.7.1\\mingw_64") # Zmień na rzeczywistą ścieżkę do instalacji Qt
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets Network) # Dodaj Network do wymaganych komponentów
 
@@ -21,7 +21,7 @@ set(SOURCES
         SourceFiles/weatherbar.cpp
         SourceFiles/details.cpp
         SourceFiles/date.cpp
-        SourceFiles/WheaterData.cpp
+        SourceFiles/WeaterData.cpp
 )
 
 set(HEADERS
@@ -32,9 +32,9 @@ set(HEADERS
         headerFiles/weatherbar.h
         headerFiles/details.h
         headerFiles/date.h
-        SourceFiles/WheaterData.cpp
-        headerFiles/WheaterData.h
-        headerFiles/WheaterData.h
+        SourceFiles/WeaterData.cpp
+        headerFiles/WeaterData.h
+        headerFiles/WeaterData.h
 )
 
 add_executable(untitled1 ${SOURCES} ${HEADERS})
