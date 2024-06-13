@@ -213,7 +213,7 @@ public:
     } // retranslateUi
 
     void updateUI() {
-        std::string visString = ( "Widoczno\305\233\304\207: " + QString::number(weather_data.getVisibility(), 'f', 0) + " km").toStdString();
+        std::string visString = ( "Widoczno\305\233\304\207: " + QString::number(weather_data.getVisibility(), 'f', 0) + " m").toStdString();
         visibility->setText(QCoreApplication::translate("Details", visString.c_str(), nullptr));
 
         std::string cloudString = ( "Zachmurzenie: " + QString::number(weather_data.getClouds(), 'f', 0) + " %").toStdString();
