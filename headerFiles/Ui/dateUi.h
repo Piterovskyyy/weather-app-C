@@ -15,6 +15,8 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
+#include "../WeaterData.h"
+
 QT_BEGIN_NAMESPACE
 
 class Ui_Date
@@ -25,6 +27,7 @@ public:
     QLabel *label;
     QLabel *timeLabel;
     QLabel *label_gif_animation;
+    WeatherData& weather_data = WeatherData::getInstance();
 
     void setupUi(QWidget *Date)
     {
@@ -50,7 +53,6 @@ public:
         font.setPointSize(25);
         label->setFont(font);
 
-
         verticalLayout->addWidget(label, 0, Qt::AlignRight);
 
         timeLabel = new QLabel(Date);
@@ -68,7 +70,6 @@ public:
         label_gif_animation->setStyleSheet(QString::fromUtf8("image: url(../images/icons/clock.svg);"));
         label_gif_animation->setScaledContents(false);
 
-
         retranslateUi(Date);
 
         QMetaObject::connectSlotsByName(Date);
@@ -77,13 +78,12 @@ public:
     void retranslateUi(QWidget *Date)
     {
         Date->setWindowTitle(QCoreApplication::translate("Date", "Form", nullptr));
-        label->setText(QCoreApplication::translate("Date", "Gliwice, Polska", nullptr));
+        // label->setText(QCoreApplication::translate("Date", "Gliwice, Polska", nullptr));
         label->setStyleSheet(QString::fromUtf8("color: white;\n"
 "font-size: 25px;"));
         timeLabel->setText(QString());
         label_gif_animation->setText(QString());
     } // retranslateUi
-
 };
 
 namespace Ui {

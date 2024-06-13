@@ -3,15 +3,12 @@
 
 #include <QWidget>
 #include <QTimer>
-#include <QTime>
-#include <QMainWindow>
-#include <QMovie>
 #include <QDateTime>
-#include<QTimeZone>
-
+#include <QTimeZone>
+#include "../headerFiles/WeaterData.h"
 
 namespace Ui {
-class Date;
+    class Date;
 }
 
 class Date : public QWidget
@@ -22,12 +19,13 @@ public:
     explicit Date(QWidget *parent = nullptr);
     ~Date();
 
-private slots:
-    void updateClock();
+    private slots:
+        void updateClock();
 
 private:
     Ui::Date *ui;
     QTimer *timer;
+    WeatherData& weather_data = WeatherData::getInstance();
 };
 
 #endif // DATE_H

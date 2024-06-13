@@ -16,6 +16,8 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h
@@ -37,9 +39,12 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h
@@ -47,6 +52,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h
@@ -107,6 +113,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception
@@ -119,7 +126,10 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list
@@ -128,6 +138,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h
@@ -163,6 +174,8 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
@@ -208,11 +221,23 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/time.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Programy/CLion 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h
+ mdp:D:/Programy/CLion 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QDateTime
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTime
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QFlags
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QIODevice
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QJsonArray
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QJsonDocument
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QJsonObject
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QList
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QMetaType
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QObject
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QSharedDataPointer
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QString
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimeZone
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimer
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20algorithm.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrl
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrlQuery
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QVariant
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20functional.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20memory.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20type_traits.h
@@ -246,19 +271,13 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainerinfo.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainertools_impl.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontiguouscache.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication_platform.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreevent.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcryptographichash.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatastream.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatetime.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdeadlinetimer.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdebug.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qelapsedtimer.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qendian.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qeventloop.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qexceptionhandling.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfactoryinterface.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qflags.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfloat16.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qforeach.h
@@ -273,6 +292,8 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qiodevicebase.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qiterable.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qiterator.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsonarray.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsondocument.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsonobject.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsonvalue.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qlatin1stringview.h
@@ -288,7 +309,6 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qmetatype.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qminmax.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnamespace.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnativeinterface.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnumeric.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject_impl.h
@@ -296,9 +316,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobjectdefs_impl.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qoverload.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpair.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qplugin.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpoint.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpointer.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qprocessordetection.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrect.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrefcount.h
@@ -347,6 +365,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qtypeinfo.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qtypes.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qurl.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qurlquery.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qutf8stringview.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/quuid.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qvariant.h
@@ -354,7 +373,6 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qversiontagging.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qxptype_traits.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qyieldcpu.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/QMovie
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qaction.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbitmap.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbrush.h
@@ -365,10 +383,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qfontmetrics.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qicon.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimage.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimageiohandler.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimagereader.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qkeysequence.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qmovie.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpaintdevice.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpalette.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpixelformat.h
@@ -383,16 +398,34 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qtransform.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs_win.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/QMainWindow
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QNetworkAccessManager
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QNetworkReply
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QNetworkRequest
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QSslConfiguration
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qabstractsocket.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qhostaddress.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qnetworkreply.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qnetworkrequest.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qssl.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslcertificate.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslconfiguration.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslerror.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslsocket.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtcpsocket.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtnetwork-config.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtnetworkexports.h
+ mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtnetworkglobal.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/QWidget
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qmainwindow.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qsizepolicy.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qwidget.h
  mdp:D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/moc_predefs.h
+ mdp:D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/WeaterData.h
  mdp:D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/date.h
 D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/search.h
  mmc:Q_OBJECT
@@ -2054,13 +2087,11 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/mainwindow.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QObject
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QSharedDataPointer
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QString
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTime
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimeZone
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimer
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrl
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrlQuery
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QVariant
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20algorithm.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20functional.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20memory.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20type_traits.h
@@ -2094,20 +2125,13 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/mainwindow.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainerinfo.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainertools_impl.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontiguouscache.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication_platform.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreevent.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcryptographichash.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatastream.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatetime.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdeadlinetimer.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdebug.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qelapsedtimer.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qendian.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qeventloop.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qexceptionhandling.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfactoryinterface.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qflags.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfloat16.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qforeach.h
@@ -2139,7 +2163,6 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/mainwindow.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qmetatype.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qminmax.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnamespace.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnativeinterface.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnumeric.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject_impl.h
@@ -2147,9 +2170,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/mainwindow.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobjectdefs_impl.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qoverload.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpair.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qplugin.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpoint.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpointer.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qprocessordetection.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrect.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrefcount.h
@@ -2206,7 +2227,6 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/mainwindow.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qversiontagging.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qxptype_traits.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qyieldcpu.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/QMovie
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qaction.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbitmap.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbrush.h
@@ -2217,10 +2237,7 @@ D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/headerFiles/mainwindow.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qfontmetrics.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qicon.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimage.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimageiohandler.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimagereader.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qkeysequence.h
- mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qmovie.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpaintdevice.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpalette.h
  mdp:D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpixelformat.h

@@ -46,7 +46,7 @@ public:
         centralwidget->setStyleSheet(QString::fromUtf8("QWidget#centralwidget{\n"
 "	\n"
 "	\n"
-"	background-image: url(../images/backgrounds/rain.png);\n"
+"	background-image: url(../images/backgrounds/broken clouds.png);\n"
 "background-repeat: no-repeat;\n"
 "}"));
         widget = new Search(centralwidget);

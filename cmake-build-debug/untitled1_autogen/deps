@@ -266,13 +266,11 @@ untitled1_autogen/timestamp: \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QObject \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QSharedDataPointer \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QString \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTime \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimeZone \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimer \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrl \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrlQuery \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QVariant \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20algorithm.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20functional.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20memory.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -306,20 +304,13 @@ untitled1_autogen/timestamp: \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainerinfo.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainertools_impl.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontiguouscache.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreevent.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcryptographichash.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdarwinhelpers.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatastream.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatetime.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdeadlinetimer.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdebug.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qelapsedtimer.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qendian.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qeventloop.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qexceptionhandling.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfactoryinterface.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qflags.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfloat16.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qforeach.h \
@@ -351,7 +342,6 @@ untitled1_autogen/timestamp: \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qmetatype.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qminmax.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnamespace.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnativeinterface.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnumeric.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject_impl.h \
@@ -359,9 +349,7 @@ untitled1_autogen/timestamp: \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qoverload.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpair.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qplugin.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpoint.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpointer.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qprocessordetection.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrect.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrefcount.h \
@@ -418,7 +406,6 @@ untitled1_autogen/timestamp: \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qversiontagging.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qxptype_traits.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qyieldcpu.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/QMovie \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qaction.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbitmap.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbrush.h \
@@ -429,10 +416,7 @@ untitled1_autogen/timestamp: \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qfontmetrics.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qicon.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimage.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimageiohandler.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimagereader.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qkeysequence.h \
-	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qmovie.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpaintdevice.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpalette.h \
 	D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpixelformat.h \

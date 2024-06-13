@@ -97,12 +97,12 @@ public:
     void updateUI()
     {
         description->setText(QCoreApplication::translate("MainPanel", weather_data.getDescription().c_str(), nullptr));
-        icon->setStyleSheet(QString::fromUtf8(
-        "QLabel#icon{\n"
-        "	image: url(../images/icons/w2.png);\n"
-        "}\n"
-        ));
-        std::string tempString = std::to_string(weather_data.getTemp()) + "\302\260C"; // \302\260 represents the degree symbol (°)
+        std::string iconUrl = "QLabel#icon{\n"
+        "	image: url(../images/icons/" + weather_data.getIcon() + ".png);\n"
+        "}\n";
+        // qDebug() << weather_data.getIcon();
+        icon->setStyleSheet(QString::fromUtf8(iconUrl));
+        std::string tempString = (QString::number(weather_data.getTemp(), 'f', 0) + "\302\260C").toStdString();
         label->setText(QCoreApplication::translate("MainPanel", tempString.c_str(), nullptr));
     }
 

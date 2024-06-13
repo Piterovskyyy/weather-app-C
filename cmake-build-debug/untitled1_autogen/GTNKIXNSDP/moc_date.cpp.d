@@ -13,6 +13,8 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
@@ -34,9 +36,12 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
@@ -44,6 +49,7 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
@@ -104,6 +110,7 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
@@ -116,7 +123,10 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
@@ -125,6 +135,7 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
@@ -160,6 +171,8 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
@@ -205,11 +218,23 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/time.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   D:/Programy/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  D:/Programy/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QDateTime \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTime \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QFlags \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QIODevice \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QJsonArray \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QJsonDocument \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QJsonObject \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QList \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QMetaType \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QObject \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QSharedDataPointer \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QString \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimeZone \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QTimer \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20algorithm.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrl \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QUrlQuery \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/QVariant \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20functional.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20memory.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -243,19 +268,13 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcontiguouscache.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcoreevent.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qcryptographichash.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatastream.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdatetime.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qdebug.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qendian.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qeventloop.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qexceptionhandling.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfactoryinterface.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qflags.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qfloat16.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qforeach.h \
@@ -270,6 +289,8 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qiterable.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qiterator.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsonarray.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsondocument.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsonobject.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qjsonvalue.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qlatin1stringview.h \
@@ -285,7 +306,6 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qmetatype.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qminmax.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnamespace.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qnumeric.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobject_impl.h \
@@ -293,9 +313,7 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qoverload.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpair.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qplugin.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpoint.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qpointer.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrect.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qrefcount.h \
@@ -344,6 +362,7 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qtypeinfo.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qtypes.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qurl.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qurlquery.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qutf8stringview.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/quuid.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qvariant.h \
@@ -351,7 +370,6 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qversiontagging.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtCore/qyieldcpu.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/QMovie \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qaction.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbitmap.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qbrush.h \
@@ -362,10 +380,7 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qfontmetrics.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qicon.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimage.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimageiohandler.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qimagereader.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qkeysequence.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qmovie.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpaintdevice.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpalette.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qpixelformat.h \
@@ -380,12 +395,30 @@ D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/cmake-build-debug/untitle
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qtransform.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/QMainWindow \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QNetworkReply \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QNetworkRequest \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QSslConfiguration \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qabstractsocket.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qhostaddress.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qssl.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslcertificate.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslerror.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qsslsocket.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtcpsocket.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/QWidget \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qsizepolicy.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-  D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qwidget.h
+  D:/Programy/Qt/6.7.1/mingw_64/include/QtWidgets/qwidget.h \
+  D:/Projekty/Uczelnia/Projekt\ Zaliczenie/weather-app-C/headerFiles/WeaterData.h

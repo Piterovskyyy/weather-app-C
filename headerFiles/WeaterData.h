@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <cmath>
 #include <QNetworkAccessManager>
 #include <QUrlQuery>
 #include <QtNetwork/QNetworkRequest>
@@ -22,6 +23,7 @@ public:
     }
 
     void setCity(const QString& cityName) {
+        city = cityName.toStdString();
         fetchCity(cityName);
     }
 
@@ -37,6 +39,9 @@ public:
     double getVisibility() const { return response_data.visibility; }
     double getWind() const { return response_data.wind; }
     double getClouds() const { return response_data.clouds; }
+    int getTimezone() const { return response_data.timezone; }
+    double getWindDir() const { return response_data.windDir; }
+    std::string getCity() const { return city; }
 
 signals:
     void dataReady();
@@ -45,6 +50,8 @@ private:
     static const QString API_KEY;
     QString API_URL = "https://api.openweathermap.org/data/2.5/weather";
     QNetworkAccessManager manager;
+
+    std::string city;
 
     struct ResponseData {
         std::string main;
@@ -59,6 +66,8 @@ private:
         double visibility;
         double wind;
         double clouds;
+        double timezone;
+        double windDir;
     };
 
     ResponseData response_data;
@@ -88,8 +97,8 @@ private:
                 response_data.main = jsonObj["weather"].toArray()[0].toObject()["main"].toString().toStdString();
                 response_data.description = jsonObj["weather"].toArray()[0].toObject()["description"].toString().toStdString();
                 response_data.icon = jsonObj["weather"].toArray()[0].toObject()["icon"].toString().toStdString();
-                response_data.temp = floor(jsonObj["main"].toObject()["temp"].toDouble());
-
+                response_data.temp = std::round(jsonObj["main"].toObject()["temp"].toDouble());
+                response_data.windDir = jsonObj["wind"].toObject()["deg"].toDouble();
                 response_data.feels_like = jsonObj["main"].toObject()["feels_like"].toDouble();
                 response_data.temp_min = jsonObj["main"].toObject()["temp_min"].toDouble();
                 response_data.temp_max = jsonObj["main"].toObject()["temp_max"].toDouble();
@@ -98,8 +107,11 @@ private:
                 response_data.visibility = jsonObj["visibility"].toDouble();
                 response_data.wind = jsonObj["wind"].toObject()["speed"].toDouble();
                 response_data.clouds = jsonObj["clouds"].toObject()["all"].toDouble();
+                response_data.timezone = jsonDoc.object()["timezone"].toInt();
 
                 emit dataReady();
+            } else {
+                qDebug() << "Blad pobierania danych z API!";
             }
 
             reply->deleteLater();

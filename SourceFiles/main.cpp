@@ -2,6 +2,7 @@
 #include <QApplication>
 #include <QDebug>
 #include "../headerFiles/WeaterData.h"
+#include <iostream>
 
 QString CITY_NAME = "Gliwice";
 
@@ -13,9 +14,9 @@ int main(int argc, char *argv[])
 
     WeatherData& weather_data = WeatherData::getInstance();
 
-    QObject::connect(&weather_data, &WeatherData::dataReady, [&weather_data]() {
-        qDebug() << QString::fromStdString(std::to_string(weather_data.getTemp()));
-    });
+    // QObject::connect(&weather_data, &WeatherData::dataReady, [&weather_data]() {
+    //     qDebug() << QString::fromStdString(std::to_string(weather_data.getTimezone()));
+    // });
 
     weather_data.setCity(CITY_NAME);
 
