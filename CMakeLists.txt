@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(untitled1 VERSION 1.0.0)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_PREFIX_PATH "D:\\Programy\\Qt\\6.7.1\\mingw_64") # Zmień na rzeczywistą ścieżkę do instalacji Qt
+set(CMAKE_PREFIX_PATH "C:\\qt\\6.7.1\\mingw_64") # Zmień na rzeczywistą ścieżkę do instalacji Qt
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets Network) # Dodaj Network do wymaganych komponentów
 

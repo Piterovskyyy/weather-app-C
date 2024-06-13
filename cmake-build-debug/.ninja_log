@@ -1,51 +1,25 @@
-# ninja log v5
-27	612	7397914731328323	build.ninja	91c2595a92d55af3
-1018	4480	7397398912786777	CMakeFiles/untitled1.dir/SourceFiles/search.cpp.obj	e91628d0f15c55ec
-36	1112	7399802518979139	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-3722	5562	7399800941401016	untitled1.exe	f7b456250d3643db
-36	1112	7399802518979139	untitled1_autogen/timestamp	ee13ec449bd23deb
-1118	6483	7399802573520589	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	5544139872d6e811
-1112	6520	7399802573864010	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	f0893a660101efaa
-42	3721	7399800935729570	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	29ad3381f493042
-1021	4412	7397398912081661	CMakeFiles/untitled1.dir/SourceFiles/list.cpp.obj	d55501ef978dc26
-1769	8707	7399786711455490	CMakeFiles/untitled1.dir/SourceFiles/mainpanel.cpp.obj	71014b680bcd1053
-1802	7112	7399786695499011	CMakeFiles/untitled1.dir/SourceFiles/WeaterData.cpp.obj	2ddd16110ceba182
-39	4063	7399799715281980	CMakeFiles/untitled1.dir/SourceFiles/details.cpp.obj	9e8dcb1ce2919ff1
-1029	4348	7397398911406334	CMakeFiles/untitled1.dir/SourceFiles/weatherbar.cpp.obj	64de45a616cec84c
-1784	8649	7399786710889726	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	3661bf5696fcc1
-1055	1189	7397398879840877	CMakeFiles/untitled1.dir/SourceFiles/WheaterData.cpp.obj	ab8b094452c7e201
-36	1112	7399802518979139	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
-36	1112	7399802518979139	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-54	1070	7399802611223646	untitled1_autogen/timestamp	ee13ec449bd23deb
-54	1070	7399802611223646	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-54	1070	7399802611223646	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
-54	1070	7399802611223646	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-1076	5872	7399802660033943	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	5544139872d6e811
-1070	5896	7399802660318975	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	f0893a660101efaa
-64	1315	7399803810600182	untitled1_autogen/timestamp	ee13ec449bd23deb
-64	1315	7399803810600182	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-64	1315	7399803810600182	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
-64	1315	7399803810600182	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-1327	6097	7399803859337659	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	29ad3381f493042
-1316	6112	7399803859480572	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	f0893a660101efaa
-1321	6171	7399803860023583	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	5544139872d6e811
-6172	8926	7399803866653009	untitled1.exe	f7b456250d3643db
-53	280	7399804463228776	untitled1_autogen/timestamp	ee13ec449bd23deb
-53	280	7399804463228776	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-53	280	7399804463228776	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
-53	280	7399804463228776	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-284	3829	7399804498707311	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	29ad3381f493042
-3830	5797	7399804504395559	untitled1.exe	f7b456250d3643db
-51	315	7399805027348016	untitled1_autogen/timestamp	ee13ec449bd23deb
-51	315	7399805027348016	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-51	315	7399805027348016	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
-51	315	7399805027348016	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-320	4047	7399805064666357	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	29ad3381f493042
-4048	6171	7399805070997175	untitled1.exe	f7b456250d3643db
-71	386	7399806150844686	untitled1_autogen/timestamp	ee13ec449bd23deb
-71	386	7399806150844686	untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-71	386	7399806150844686	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/timestamp	ee13ec449bd23deb
-71	386	7399806150844686	D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	ee13ec449bd23deb
-391	4638	7399806193365123	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	5544139872d6e811
-397	4722	7399806194204501	CMakeFiles/untitled1.dir/SourceFiles/mainpanel.cpp.obj	71014b680bcd1053
-4722	7091	7399806200653118	untitled1.exe	f7b456250d3643db
+# ninja log v6
+22	1474	7400091267843911	build.ninja	c5eb2ef6b33e9590
+37	2941	7400091298008517	untitled1_autogen/timestamp	96e67a7442a7e1b6
+37	2941	7400091298008517	untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
+37	2941	7400091298008517	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/timestamp	96e67a7442a7e1b6
+37	2941	7400091298008517	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
+2942	6908	7400091298936043	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	8b928022aed22e97
+2950	7027	7400091299015824	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
+2946	7126	7400091298975944	CMakeFiles/untitled1.dir/SourceFiles/main.cpp.obj	580be9325da15884
+7027	10291	7400091339789054	CMakeFiles/untitled1.dir/SourceFiles/list.cpp.obj	e6a45d0e220f1179
+6914	10389	7400091339609530	CMakeFiles/untitled1.dir/SourceFiles/search.cpp.obj	bda2e6578ef42248
+7126	11002	7400091340776416	CMakeFiles/untitled1.dir/SourceFiles/mainpanel.cpp.obj	e34dac9e1a2372b7
+10291	13216	7400091372428916	CMakeFiles/untitled1.dir/SourceFiles/weatherbar.cpp.obj	8b92dd9f20f14839
+10389	14175	7400091373406309	CMakeFiles/untitled1.dir/SourceFiles/details.cpp.obj	f81a0c4a276eceee
+11002	14664	7400091379534546	CMakeFiles/untitled1.dir/SourceFiles/date.cpp.obj	e8d69bdaacb33798
+13216	16038	7400091401673275	CMakeFiles/untitled1.dir/SourceFiles/WeaterData.cpp.obj	ca60200c3174e3f
+16038	18724	7400091429898844	untitled1.exe	a2a476de9234f47e
+24	1281	7400095687849221	untitled1_autogen/timestamp	96e67a7442a7e1b6
+24	1281	7400095687849221	untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
+24	1281	7400095687849221	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/timestamp	96e67a7442a7e1b6
+24	1281	7400095687849221	C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug/untitled1_autogen/mocs_compilation.cpp	96e67a7442a7e1b6
+1287	5250	7400095688879132	CMakeFiles/untitled1.dir/SourceFiles/mainwindow.cpp.obj	2a65993c92bc05b
+1282	5311	7400095688826522	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj	8b928022aed22e97
+1291	5477	7400095688919023	CMakeFiles/untitled1.dir/SourceFiles/search.cpp.obj	bda2e6578ef42248
+5477	7245	7400095730768657	untitled1.exe	a2a476de9234f47e
