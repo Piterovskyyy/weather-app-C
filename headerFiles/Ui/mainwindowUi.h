@@ -95,8 +95,7 @@ public:
 
 
         std::string backgroundUrl = "QWidget#centralwidget{\n"
-        "	background-image: url(../images/backgrounds/"+ weather_data.getDescription() +".png);\n"
-        "	image: url(../images/icons/" + weather_data.getDescription() + ".png);\n"
+        "	background-image: url(../images/backgrounds/"+ weather_data.getIcon() +"Bg.png);\n"
         "background-repeat: no-repeat;\n"
         "}";
         centralwidget->setStyleSheet(QString::fromUtf8(backgroundUrl));
