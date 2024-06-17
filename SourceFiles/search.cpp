@@ -29,7 +29,7 @@ void Search::updateUI()
 {
     WeatherData& weather_data = WeatherData::getInstance();
     // Przykład aktualizacji UI:
-    qDebug() << "Dane pogody dla: " << QString::fromStdString(weather_data.getCity());
-    qDebug() << "Temperatura: " << weather_data.getTemp();
+    // qDebug() << "Dane pogody dla: " << QString::fromStdString(weather_data.getCity());
+    // qDebug() << "Temperatura: " << weather_data.getTemp();
     // Tutaj dodaj kod do aktualizacji interfejsu użytkownika danymi pogodowymi
 }

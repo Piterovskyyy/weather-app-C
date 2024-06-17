@@ -1,11 +1,3 @@
-/********************************************************************************
-** Form generated from reading UI file 'list.ui'
-**
-** Created by: Qt User Interface Compiler version 6.7.1
-**
-** WARNING! All changes made in this file will be lost when recompiling UI file!
-********************************************************************************/
-
 #ifndef LISTUI_H
 #define LISTUI_H
 
@@ -15,13 +7,12 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-
 #include "../firebase.h"
+#include "../WeaterData.h"
 
 QT_BEGIN_NAMESPACE
 
-class Ui_List
-{
+class Ui_List {
 public:
     QLabel *header;
     QWidget *verticalLayoutWidget;
@@ -33,31 +24,30 @@ public:
     QPushButton *pushButton_6;
     QLabel *background;
     QPushButton *star;
-    Firebase& firebase = Firebase::getInstance();
+    Firebase &firebase = Firebase::getInstance();
+    WeatherData &weather_data = WeatherData::getInstance();
 
-
-    void setupUi(QWidget *List)
-    {
+    void setupUi(QWidget *List) {
         if (List->objectName().isEmpty())
             List->setObjectName("List");
         List->resize(290, 270);
         List->setStyleSheet(QString::fromUtf8("QLabel#background{\n"
-"	background-color: rgba(121, 122, 122, 228);\n"
-"	border-radius: 20px;\n"
-"	\n"
-"}\n"
-"QPushButton:hover{\n"
-"color: rgb(66, 67, 67)\n"
-"}\n"
-"QPushButton{\n"
-"	background-color: rgba(255, 255, 255, 0);\n"
-"font-size: 16px;\n"
-"color: white;\n"
-"}\n"
-"QPushButton#star{\n"
-"	image: url(../images/icons/star.svg);\n"
-"}\n"
-""));
+            "	background-color: rgba(121, 122, 122, 228);\n"
+            "	border-radius: 20px;\n"
+            "	\n"
+            "}\n"
+            "QPushButton:hover{\n"
+            "color: rgb(66, 67, 67)\n"
+            "}\n"
+            "QPushButton{\n"
+            "	background-color: rgba(255, 255, 255, 0);\n"
+            "font-size: 16px;\n"
+            "color: white;\n"
+            "}\n"
+            "QPushButton#star{\n"
+            "	image: url(../images/icons/star.svg);\n"
+            "}\n"
+            ""));
         header = new QLabel(List);
         header->setObjectName("header");
         header->setGeometry(QRect(0, 7, 291, 31));
@@ -115,30 +105,68 @@ public:
         star->raise();
 
 
-
-
         retranslateUi(List);
 
         QMetaObject::connectSlotsByName(List);
+        QObject::connect(&firebase, &Firebase::dataReady, List, [this]() {
+            updateUI();
+        });
+        QObject::connect(&firebase, &Firebase::listReady, List, [this]() {
+            updateUI();
+        });
     } // setupUi
 
-    void retranslateUi(QWidget *List)
-    {
+    void retranslateUi(QWidget *List) {
         List->setWindowTitle(QCoreApplication::translate("List", "Form", nullptr));
         header->setText(QCoreApplication::translate("List", "Ulubione miasta", nullptr));
-        pushButton->setText(QCoreApplication::translate("List", "Krak\303\263w", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("List", "Warszawa", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("List", "Gda\305\204sk", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("List", "Gliwice", nullptr));
-        pushButton_6->setText(QCoreApplication::translate("List", "Pozna\305\204", nullptr));
+
+
         background->setText(QString());
         star->setText(QString());
+        QObject::connect(pushButton, &QPushButton::clicked, List,
+                         [this]() { weather_data.setCity(pushButton->text()); });
+        QObject::connect(pushButton_3, &QPushButton::clicked, List,
+                         [this]() { weather_data.setCity(pushButton_3->text()); });
+        QObject::connect(pushButton_4, &QPushButton::clicked, List,
+                         [this]() { weather_data.setCity(pushButton_4->text()); });
+        QObject::connect(pushButton_2, &QPushButton::clicked, List,
+                         [this]() { weather_data.setCity(pushButton_2->text()); });
+        QObject::connect(pushButton_6, &QPushButton::clicked, List,
+                         [this]() { weather_data.setCity(pushButton_6->text()); });
     } // retranslateUi
 
+    void updateUI() {
+        if (firebase.favCities.size() > 0) {
+            pushButton->setText(QCoreApplication::translate("List", firebase.favCities[0].c_str(), nullptr));
+        } else {
+            pushButton->setText("");
+        }
+        if (firebase.favCities.size() > 1) {
+            pushButton_3->setText(QCoreApplication::translate("List", firebase.favCities[1].c_str(), nullptr));
+        } else {
+            pushButton_3->setText("");
+        }
+        if (firebase.favCities.size() > 2) {
+            pushButton_4->setText(QCoreApplication::translate("List", firebase.favCities[2].c_str(), nullptr));
+        } else {
+            pushButton_4->setText("");
+        }
+        if (firebase.favCities.size() > 3) {
+            pushButton_2->setText(QCoreApplication::translate("List", firebase.favCities[3].c_str(), nullptr));
+        } else {
+            pushButton_2->setText("");
+        }
+        if (firebase.favCities.size() > 4) {
+            pushButton_6->setText(QCoreApplication::translate("List", firebase.favCities[4].c_str(), nullptr));
+        } else {
+            pushButton_6->setText("");
+        }
+    }
 };
 
 namespace Ui {
-    class List: public Ui_List {};
+    class List : public Ui_List {
+    };
 } // namespace Ui
 
 QT_END_NAMESPACE

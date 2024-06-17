@@ -80,6 +80,7 @@ private:
     void fetchCity(const QString& cityName) {
         QUrl url(API_URL);
         QUrlQuery query;
+        query.addQueryItem("lang", "pl");
         query.addQueryItem("q", cityName);
         query.addQueryItem("units", "metric");
         query.addQueryItem("appid", API_KEY);
