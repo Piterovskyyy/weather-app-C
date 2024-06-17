@@ -27,6 +27,32 @@ public:
 
     std::vector<std::string> favCities;
 
+    void updateDatabase() {
+        QUrl url(FIREBASE_URL);
+        QNetworkRequest request(url);
+
+        request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+
+        QJsonArray jsonArray;
+        for (const std::string& city : favCities) {
+            jsonArray.append(QString::fromStdString(city));
+        }
+
+        QJsonObject jsonObject;
+        jsonObject["favCities"] = jsonArray;
+        QJsonDocument jsonDoc(jsonObject);
+        QByteArray jsonData = jsonDoc.toJson();
+
+        QNetworkReply* reply = manager.put(request, jsonData);
+
+        connect(reply, &QNetworkReply::finished, this, [this, reply]() {
+            if (reply->error() != QNetworkReply::NoError) {
+                qDebug() << "Błąd aktualizacji danych w bazie:" << reply->errorString();
+            }
+            reply->deleteLater();
+        });
+    }
+
     void fetchCities() {
         QUrl url(FIREBASE_URL);
         QNetworkRequest request(url);
@@ -94,6 +120,8 @@ public:
             }
             //tutaj chyba
         }
+
+        updateDatabase();
 
         emit listReady();
     }
