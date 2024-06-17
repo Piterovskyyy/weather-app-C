@@ -16,6 +16,8 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
+#include "../firebase.h"
+
 QT_BEGIN_NAMESPACE
 
 class Ui_List
@@ -31,6 +33,8 @@ public:
     QPushButton *pushButton_6;
     QLabel *background;
     QPushButton *star;
+    Firebase& firebase = Firebase::getInstance();
+
 
     void setupUi(QWidget *List)
     {

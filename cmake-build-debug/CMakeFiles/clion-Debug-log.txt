@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\jakub\CLionProjects\untitled1 -B C:\Users\jakub\CLionProjects\untitled1\cmake-build-debug
+"D:\Programy\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Programy/CLion 2024.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\Projekty\Uczelnia\Projekt Zaliczenie\weather-app-C" -B "D:\Projekty\Uczelnia\Projekt Zaliczenie\weather-app-C\cmake-build-debug"
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Configuring done (0.7s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/jakub/CLionProjects/untitled1/cmake-build-debug
+-- Build files have been written to: D:/Projekty/Uczelnia/Projekt Zaliczenie/weather-app-C/cmake-build-debug
