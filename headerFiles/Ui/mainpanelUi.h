@@ -27,6 +27,8 @@ public:
     QLabel *description;
     QLabel *label;
     QPushButton *star;
+
+    // Instancje (singleton) WeatherData i Firebase
     WeatherData &weather_data = WeatherData::getInstance();
     Firebase &firebase = Firebase::getInstance();
 
@@ -73,6 +75,8 @@ public:
     } // setupUi
 
     void retranslateUi(QWidget *MainPanel) {
+
+        // Aktualizacja UI (wywołanie odpowiednich funkcji) po uzyskaniu danych z API/bazy danych
         QObject::connect(&weather_data, &WeatherData::dataReady, MainPanel, [this]() {
             updateUI();
         });
@@ -82,23 +86,22 @@ public:
         });
         MainPanel->setWindowTitle(QCoreApplication::translate("MainPanel", "Form", nullptr));
         icon->setText(QString());
-        // description->setText(QCoreApplication::translate("MainPanel", "", nullptr));
-        // label->setText(QCoreApplication::translate("MainPanel", "28\302\260C", nullptr));
         star->setText(QString());
     } // retranslateUi
 
+    // Aktualizacja UI w oparciu o dane z API/bazy danych
     void updateUI() {
         description->setText(QCoreApplication::translate("MainPanel", weather_data.getDescription().c_str(), nullptr));
         std::string iconUrl = "QLabel#icon{\n"
                               "	image: url(../images/icons/" + weather_data.getIcon() + ".png);\n"
                               "}\n";
-        // qDebug() << weather_data.getIcon();
         icon->setStyleSheet(QString::fromUtf8(iconUrl));
         std::string tempString = (QString::number(weather_data.getTemp(), 'f', 0) + "\302\260C").toStdString();
         label->setText(QCoreApplication::translate("MainPanel", tempString.c_str(), nullptr));
         updateStarIcon();
     }
 
+    // Obsługa gwiazdki "dodaj do ulubionych"
     void updateStarIcon() {
         bool isFav;
         for (const auto &city : firebase.favCities) {

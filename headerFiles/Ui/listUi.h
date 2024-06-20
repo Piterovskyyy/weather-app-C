@@ -123,6 +123,9 @@ public:
 
         background->setText(QString());
         star->setText(QString());
+
+        // Łączenie sygnału kliknięcia przycisku z odpowiednim slotem
+        // Po kliknięciu przycisku wywołuje metodę setCity dla odpowiedniego miasta
         QObject::connect(pushButton, &QPushButton::clicked, List,
                          [this]() { weather_data.setCity(pushButton->text()); });
         QObject::connect(pushButton_3, &QPushButton::clicked, List,
@@ -135,7 +138,10 @@ public:
                          [this]() { weather_data.setCity(pushButton_6->text()); });
     } // retranslateUi
 
+    // Metoda aktualizująca UI na podstawie danych pobranych z Firebase
     void updateUI() {
+
+        // Aktualizacja tekstu przycisków na podstawie listy ulubionych miast
         if (firebase.favCities.size() > 0) {
             pushButton->setText(QCoreApplication::translate("List", firebase.favCities[0].c_str(), nullptr));
         } else {

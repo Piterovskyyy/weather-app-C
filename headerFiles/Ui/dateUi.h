@@ -27,6 +27,8 @@ public:
     QLabel *label;
     QLabel *timeLabel;
     QLabel *label_gif_animation;
+
+    // Użycie singletona
     WeatherData& weather_data = WeatherData::getInstance();
 
     void setupUi(QWidget *Date)
@@ -40,12 +42,14 @@ public:
 "QLabel#timeLabel{\n"
 "color: white;\n"
 "}"));
+
         verticalLayoutWidget = new QWidget(Date);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
         verticalLayoutWidget->setGeometry(QRect(-10, 49, 401, 31));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
+
         label = new QLabel(verticalLayoutWidget);
         label->setObjectName("label");
         QFont font;
@@ -61,6 +65,7 @@ public:
         timeLabel->setStyleSheet(QString::fromUtf8("color: white;\n"
 "font-size: 25px;"));
         timeLabel->setFont(font);
+
         label_gif_animation = new QLabel(Date);
         label_gif_animation->setObjectName("label_gif_animation");
         label_gif_animation->setGeometry(QRect(125, 11, 31, 35));
@@ -78,7 +83,6 @@ public:
     void retranslateUi(QWidget *Date)
     {
         Date->setWindowTitle(QCoreApplication::translate("Date", "Form", nullptr));
-        // label->setText(QCoreApplication::translate("Date", "Gliwice, Polska", nullptr));
         label->setStyleSheet(QString::fromUtf8("color: white;\n"
 "font-size: 25px;"));
         timeLabel->setText(QString());

@@ -36,6 +36,8 @@ public:
     QLabel *minTemp;
     QLabel *feelLikeIcon_2;
     QLabel *feelLikeIcon_3;
+
+    // Użycie singletona klasy WeatherData
     WeatherData &weather_data = WeatherData::getInstance();
 
     void setupUi(QWidget *Details) {
@@ -194,24 +196,17 @@ public:
         });
 
         Details->setWindowTitle(QCoreApplication::translate("Details", "Form", nullptr));
-        // visibility->setText(QCoreApplication::translate("Details", "Widoczno\305\233\304\207: 23 km", nullptr));
-        // cloud->setText(QCoreApplication::translate("Details", "Zachmurzenie: 75 %", nullptr));
-        // feelsLike->setText(QCoreApplication::translate("Details", "Temperatura odczuwalna: 26\302\260C", nullptr));
-        // preasure->setText(QCoreApplication::translate("Details", "Ci\305\233nienie: 1001 hPa", nullptr));
         visibilityIcon->setText(QString());
         cloudIcon->setText(QString());
         preasureIcon->setText(QString());
         feelLikeIcon->setText(QString());
-        // wind->setText(QCoreApplication::translate("Details", "Wiatr: bezwietrznie", nullptr));
-        // rain->setText(QCoreApplication::translate("Details", "Opady: 30 %", nullptr));
         windIcon->setText(QString());
         rainIcon->setText(QString());
-        // maxTemp->setText(QCoreApplication::translate("Details", "Max. temperatura: 27\302\260C", nullptr));
-        // minTemp->setText(QCoreApplication::translate("Details", "Min. temperatura: 23\302\260C", nullptr));
         feelLikeIcon_2->setText(QString());
         feelLikeIcon_3->setText(QString());
     } // retranslateUi
 
+    // Metoda odpowiedzialna za aktualizacje UI w oparciu o dane z API
     void updateUI() {
         std::string visString = ( "Widoczno\305\233\304\207: " + QString::number(weather_data.getVisibility(), 'f', 0) + " m").toStdString();
         visibility->setText(QCoreApplication::translate("Details", visString.c_str(), nullptr));
